@@ -9,6 +9,10 @@ namespace day_3
             int mainigais = Funkcija2();
             Console.WriteLine(mainigais);
             Funkcija();
+            Funkcija3(5, 6);
+            Funkcija3(99, 22);
+            int mainigais2 = Funkcija4(12, 14);
+            Console.WriteLine(mainigais2);
             Console.ReadLine();
 
         }
@@ -33,8 +37,19 @@ namespace day_3
 
             return c;
         }
-    }
 
+        static void Funkcija3(int skaitlis1, int skaitlis2)
+        {
+            int c = skaitlis1 + skaitlis2;
+            Console.WriteLine(c);
+        }
+        static int Funkcija4(int skaitlis1, int skaitlis2)
+        {
+            int result;
+            result = skaitlis1 + skaitlis2;
+            return result;
+        }
+    }
 }
 
 
